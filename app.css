@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.center-form {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.bg-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.riot {
+  width: 20rem;
+  background: white;
+}
+
+.form {
+  width: 480px;
+  height: 600px;
+  background: white;
+  padding-inline: 3rem;
+  padding-block: 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user,
+.password {
+  width: 1.75rem;
+}
+
+.label {
+  width: 90%;
+  height: 3.25rem;
+  border-radius: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  padding-inline: 1rem;
+  padding-block: 0.25rem;
+  border-bottom: 4px solid black;
+  background: #f7f7f7;
+}
+
+.input {
+  height: 2rem;
+  border: none;
+  flex: 1;
+  outline: none;
+  border-radius: 3rem;
+  background: transparent;
+}
+
+.error-message {
+  color: red;
+  display: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.login {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  background-color: #ec2c0f;
+  border-bottom: 5px solid black;
+  border-radius: 100vh;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.clickit {
+  border-bottom: 3px solid black;
+}
